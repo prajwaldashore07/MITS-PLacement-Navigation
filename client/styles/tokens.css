@@ -1,0 +1,26 @@
+:root{
+  color-scheme:light;
+  --ink-950:#10172b;--ink-900:#17213a;--ink-800:#283450;--ink-700:#3b4966;--ink-600:#586781;--ink-500:#748199;--ink-400:#9aa5b7;--ink-300:#cbd2de;--ink-200:#e4e8ef;--ink-100:#eef1f6;--ink-50:#f7f8fb;--paper:#fff;
+  --brand-950:#1a2c65;--brand-900:#203a85;--brand-800:#2749ad;--brand-700:#315bd5;--brand-600:#406be9;--brand-500:#5b83f4;--brand-300:#aabcf5;--brand-100:#e8eeff;--brand-50:#f3f6ff;
+  --success-800:#1d6a49;--success-700:#277951;--success-100:#dff2e9;--success-50:#f1faf5;
+  --warning-800:#865708;--warning-700:#a06a0a;--warning-100:#f8e9bf;--warning-50:#fff9e9;
+  --danger-800:#a23e46;--danger-700:#be4e56;--danger-100:#f6dde0;--danger-50:#fff4f5;
+  --info-800:#31518e;--info-100:#e7edfa;--info-50:#f3f6fc;
+  --font-sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--font-mono:"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+  --text-xs:11px;--text-sm:12px;--text-base:14px;--text-lg:16px;--text-xl:20px;--text-2xl:24px;--text-3xl:30px;
+  --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:20px;--space-6:24px;--space-8:32px;--space-10:40px;--space-12:48px;
+  --radius-xs:6px;--radius-sm:8px;--radius-md:12px;--radius-lg:16px;--radius-xl:20px;--radius-pill:999px;
+  --shadow-sm:0 1px 2px rgba(20,35,68,.04),0 1px 3px rgba(20,35,68,.06);--shadow-md:0 6px 18px rgba(20,35,68,.08);--shadow-lg:0 18px 60px rgba(20,35,68,.18);
+  --sidebar-width:246px;--topbar-height:68px;--ease:cubic-bezier(.22,.61,.36,1);--motion:180ms var(--ease);
+  --eligible-bg:var(--success-50);--eligible-fg:var(--success-700);--skills-gap-bg:var(--warning-50);--skills-gap-fg:var(--warning-800);--not-eligible-bg:var(--danger-50);--not-eligible-fg:var(--danger-800);--deadline-passed-bg:var(--ink-100);--deadline-passed-fg:var(--ink-600);
+}
+*{box-sizing:border-box}
+html{min-width:320px;background:var(--ink-50);scroll-behavior:smooth}
+body{margin:0;font-family:var(--font-sans);font-size:var(--text-base);line-height:1.5;color:var(--ink-900);background:var(--ink-50);font-feature-settings:"ss01" on,"cv11" on;-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit}
+button,a{-webkit-tap-highlight-color:transparent}
+button{color:inherit}
+a{color:var(--brand-700);text-decoration:none}
+a:hover{color:var(--brand-800)}
+:focus-visible{outline:3px solid rgba(64,107,233,.45);outline-offset:2px}
+::selection{background:#dce6ff;color:var(--brand-950)}
